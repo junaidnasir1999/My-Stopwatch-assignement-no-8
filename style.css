@@ -1,0 +1,55 @@
+ i {
+   text-align: center;
+   color: lightsteelblue;
+ }
+  
+  body {
+    background: black;
+    color: lightgoldenrodyellow;
+    font-family: Menlo;
+  }
+  
+  .controls {
+    position: fixed;
+    text-align: center;
+    top: 6em;
+    width: 100%;
+  }
+  
+  .button {
+    color: #bbb;
+    font-size: 3vw;
+    margin: 0 0.5em;
+    text-decoration: none;
+  }
+  
+  .button:first-child {
+      margin-left: 0;
+  }
+  
+  .button:last-child {
+      margin-right: 0;
+  }
+  
+  .button:hover {
+    color: lightseagreen;
+  }
+  
+  .stopwatch {
+    font-size: 6vw;
+    height: 50%;
+    line-height: 60vh;
+    text-align: center;
+  }
+  
+  .results {
+
+    border-color: lime;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 4;
+    left: 50%;
+    
+  }
